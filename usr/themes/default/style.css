@@ -10,15 +10,17 @@
  * Global style
  * --------------- */
 body {
-  background-color: #FFF;
+  /*background-color: #FFF;*/
+  background-color: #667484;
   color: #444;
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "Droid Serif", Georgia, "Times New Roman", STHeiti, serif;
+  font-family: "Droid Serif", Georgia, "Times New Roman", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "WenQuanYi Micro Hei","Microsoft Yahei", serif;
   font-size: 87.5%;
 }
 
 a {
-  color: #3354AA;
+  /*color: #3354AA;*/
+  color: #666;
   text-decoration: none;
 }
 a:hover, a:active {
@@ -61,7 +63,7 @@ table th {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei","Microsoft Yahei", sans-serif;
 }
 
 input[type="text"],
@@ -88,7 +90,8 @@ textarea {
 .post-content a,
 .widget a,
 .comment-content a {
-  border-bottom: 1px solid #EEE;
+  border-bottom: 1px solid #36414d;
+  color: #36414d;
 }
 
 .post-meta a:hover,
@@ -115,14 +118,24 @@ textarea {
  * --------------- */
 
 #header {
-  padding-top: 35px;
-  border-bottom: 1px solid #EEE;
+  /*padding-top: 35px;
+  border-bottom: 1px solid #EEE;*/
+}
+
+#header .row {
+	background-color: #a3b8cc;
+	border:#FFFFFF solid 2px;
+	padding: 10px;
 }
 
 #logo {
   color: #333;
   font-size: 2.5em;
 }
+#logo img {
+    max-height: 64px;
+}
+
 .description {
   margin: .5em 0 0;
   color: #999;
@@ -133,6 +146,7 @@ textarea {
 #nav-menu {
   margin: 25px 0 0;
   padding: 0;
+  display: none;
 }
 #nav-menu a {
   display: block;
@@ -195,6 +209,8 @@ textarea {
 .post-title {
   margin: .83em 0;
   font-size: 1.4em;
+  border-left: 5px solid #dae0e6;
+  padding: 0 10px;
 }
 .post-meta {
   margin-top: -0.5em;
@@ -347,26 +363,31 @@ textarea {
 #secondary {
   padding-top: 15px;
   word-wrap: break-word;
+  background-color: #e6ecf2;
 }
 .widget {
   margin-bottom: 30px;
+  background-color: #dae0e6;
 }
-.widget-title {
+
+.widget-title{
+	background-color: #a3b8cc;
+	border-left: 5px solid #36414d;
+	color: #FFFFFF;
+	padding: 5px;
 }
+
 .widget-list {
-  list-style: none;
-  padding: 0;
+  /*list-style: none;*/
+  padding:0 0 10px 25px;
 }
 .widget-list li {
   margin: 5px 0;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .widget-list li ul {
   margin-left: 15px;
-}
-
-.widget-list a:hover {
 }
 
 
